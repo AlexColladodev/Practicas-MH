@@ -1,0 +1,44 @@
+Memoria_Metaheurística.pdf: Es la memoria/informe de la práctica. En esta en la página 14 podrás encontrar como ejecutar el programa
+FUENTES: Contendrá todos los archivos fuentes .java, es decir, el código
+BIN: Contendrá todos los archivos .class, es decir, el código compilado.
+Tablas: Aquí estarán todas las tablas que son los argumentos de entrada para el programa
+
+Semilla para Genetico y Memetico Random rand = new Random(42)
+
+Instrucciones de compilación y ejecución:
+
+Ubicado en software
+	javac -d BIN FUENTES/qap/*.java
+
+Ubivado en BIN --> cd BIN
+	java qap/QAP
+
+Ya tendras el programa ejecutando, solo te pedirá cual de los algoritmos quieres ejecutar
+0 - Greedy
+1 - Busqueda Local
+2 - Genetico
+2 - Memetico
+
+
+Si elegiste la Búsqueda Local se te preguntará si deseas ejecutarlo
+Con semilla - Da igual cuantas veces lo ejecutes te saldrá siempre el mismo coste y la misma permutación
+Aleatorio - Varia cada vez que lo ejecutas la permutación y el coste.
+
+Si elegiste la Genetico se te preguntará si deseas ejecutarlo
+Con semilla - Da igual cuantas veces lo ejecutes te saldrá siempre el mismo coste para cada archivo
+Aleatorio - Varia las soluciones cada vez que se ejecuta
+
+Luego se te preguntara cual deseas utilizar
+AGG Posicion
+AGG PMX
+AGE Posicion
+AGE PMX
+
+Lo mismo sucede para el Memetico
+
+
+
+Cualquier duda escribir a:
+colladoalex@correo.ugr.es
+
+Alexander Collado Rojas - Y7412507N

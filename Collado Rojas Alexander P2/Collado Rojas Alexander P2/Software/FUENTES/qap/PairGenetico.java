@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package qap;
+
+/**
+ * Alexander Collado Rojas Y7412507N
+ * Clase PAR para representar solucion en el Greedy
+ */
+public class PairGenetico<T, U> {
+    private final int[] primero;
+    private final int[] segundo;
+    
+    public PairGenetico(int[] primero, int[] segundo) {
+        this.primero = primero;
+        this.segundo = segundo;
+    }
+    
+    public int[] getPrimero() {
+        return primero;
+    }
+
+    public int[] getSegundo() {
+        return segundo;
+    }
+    
+}
